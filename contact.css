@@ -1,0 +1,20 @@
+{
+	 width: 30%; 
+    margin: 20px auto; 
+    border: 1px solid #cbcbcb;
+}
+form
+{
+padding-top:40px;
+}
+
+body{
+	text-align: center;
+	background-color: silver;
+	font-family:"Times New Roman", Times, serif;
+	 background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+  backgound-position: right top;
+  margin-right: 40px;
+  background-attachment: fixed;
+}
+}

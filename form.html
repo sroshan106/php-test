@@ -1,0 +1,31 @@
+<html> 
+  
+<head> 
+		<h1 style="color: black;margin-top: 6%;text-align: center;margin-bottom: 4%;">Upload Your Image</h1>
+    <link rel="stylesheet" 
+          type="text/css"
+          href="style1.css" /> 
+
+  <br><br>
+</head> 
+  
+<body> 
+       
+    <div id="content"> 
+        <form method="POST" 
+              action="run.php" 
+              enctype="multipart/form-data"> 
+            <input type="file" 
+                   name="userFile"  accept="image/png, image/jpeg" /> 
+                <div>
+                <button type="submit"
+                        name="uploadBtn" value='upload'> 
+                  UPLOAD 
+                </button>  
+                </div>
+          </form> 
+      </div> 
+
+</body> 
+  
+</html> 
